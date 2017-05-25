@@ -4,4 +4,9 @@ language: cpp
 compiler: clang
 script: 
   - ./mach build
-  
+addons:
+  apt:
+    sources:
+      - llvm-toolchain-trusty-3.9
+    packages:
+      - clang-3.9
