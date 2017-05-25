@@ -4,10 +4,8 @@ language: cpp
 compiler: clang
 env:
   - COMPILER=clang-3.9
-  - CXX=clang++-3.9
-  - CC=clang-3.9
 script: 
-  - ./mach build
+  - CC=clang-3.9 CXX=clang++-3.9 ./mach build
 addons:
   apt:
     sources:
