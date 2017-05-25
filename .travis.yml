@@ -1,7 +1,6 @@
 dist: trusty
 sudo: false
-language: cpp
-compiler: clang
+language: rust
 env:
   - COMPILER=clang-3.9
 script: 
