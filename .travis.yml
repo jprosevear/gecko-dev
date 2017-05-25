@@ -1,0 +1,2 @@
+compiler: clang
+install: mach build
