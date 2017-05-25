@@ -1,1 +1,1 @@
-ac_add_options --with-ccache=/usr/lib/ccache
+ac_add_options --with-ccache
