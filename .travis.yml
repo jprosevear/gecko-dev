@@ -15,3 +15,4 @@ addons:
       - autoconf2.13
       - libgtk-3-dev
       - libgtk2.0-dev
+      - libgconf2-dev
