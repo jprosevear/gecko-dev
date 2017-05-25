@@ -18,3 +18,4 @@ addons:
       - libgconf2-dev
       - libdbus-glib-1-dev
       - yasm
+      - libpulse-dev
