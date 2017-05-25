@@ -1,4 +1,4 @@
 language: cpp
 compiler: clang
 script: 
-  - mach build
+  - ./mach build
