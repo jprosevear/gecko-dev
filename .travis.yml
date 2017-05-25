@@ -1,6 +1,7 @@
 dist: trusty
 sudo: required
 language: rust
+cache: ccache
 env:
   - COMPILER=clang-3.9
 script: 
