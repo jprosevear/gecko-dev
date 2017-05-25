@@ -13,3 +13,4 @@ addons:
       - clang-3.9
       - libpango1.0-dev
       - autoconf2.13
+      - libgtk-3-dev
