@@ -1,3 +1,4 @@
 language: cpp
 compiler: clang
-script: mach build
+script: 
+  - mach build
