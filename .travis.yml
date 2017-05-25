@@ -1,7 +1,9 @@
 dist: trusty
 sudo: false
 language: cpp
-compiler: clang-3.9
+compiler: clang
+env:
+  - COMPILER=clang-3.9
 script: 
   - ./mach build
 addons:
