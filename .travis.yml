@@ -5,6 +5,6 @@ script:
 addons:
   apt:
     sources:
-      - llvm-toolchain-precise-3.9
+      - llvm-toolchain-precise-3.6
     packages:
-      - clang-3.9
+      - clang-3.6
