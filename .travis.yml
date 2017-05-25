@@ -11,3 +11,4 @@ addons:
       - llvm-toolchain-trusty-3.9
     packages:
       - clang-3.9
+      - pango
