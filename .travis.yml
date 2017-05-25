@@ -11,4 +11,4 @@ addons:
       - llvm-toolchain-trusty-3.9
     packages:
       - clang-3.9
-      - libpangoft2-dev
+      - libpango1.0-dev
