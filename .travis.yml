@@ -1,10 +1,7 @@
+dist: trusty
+sudo: false
 language: cpp
 compiler: clang
 script: 
   - ./mach build
-addons:
-  apt:
-    sources:
-      - llvm-toolchain-precise-3.6
-    packages:
-      - clang-3.6
+  
