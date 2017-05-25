@@ -12,3 +12,4 @@ addons:
     packages:
       - clang-3.9
       - libpango1.0-dev
+      - autoconf2.13
