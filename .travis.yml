@@ -2,3 +2,7 @@ language: cpp
 compiler: clang
 script: 
   - ./mach build
+sources:
+  - llvm-toolchain-precise-3.9
+packages:
+  - clang-3.9
